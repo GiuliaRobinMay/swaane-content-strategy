@@ -49,14 +49,14 @@ export default function App() {
     <div className="shell">
       <nav className="side" aria-label="Main">
         <div className="brand">
-          <div className="word">swaane</div>
+          <div className="word"><span className="word-full">swaane</span><span className="word-short">s</span></div>
           <div className="sub">Content studio</div>
         </div>
         <div className="nav">
           {ROUTES.map((r) => (
-            <button key={r} type="button" aria-current={ui.route === r ? 'page' : undefined} onClick={() => go(r)}>
+            <button key={r} type="button" title={LABEL[r]} aria-label={LABEL[r]} aria-current={ui.route === r ? 'page' : undefined} onClick={() => go(r)}>
               <span className="ic">{navIcons[r]()}</span>
-              {LABEL[r]}
+              <span className="label">{LABEL[r]}</span>
               {r === 'review' && waiting > 0 && <span className="count">{waiting}</span>}
             </button>
           ))}

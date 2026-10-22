@@ -10,18 +10,18 @@ export interface Palette {
 }
 
 export const palettes: Record<number, Palette> = {
-  1: { name: 'Winter light', base: '#D9E2EA', a: '#F2ECE2', b: '#B4C4D6', c: '#E9DCC0', text: 'dark' },
-  2: { name: 'Pomegranate', base: '#7A2E45', a: '#C8707F', b: '#4E1F2E', c: '#E2A99A', text: 'light' },
-  3: { name: 'Almond blossom', base: '#EED9DC', a: '#C9D3AE', b: '#D8C8E3', c: '#F7EDE4', text: 'dark' },
-  4: { name: 'Citrus and sky', base: '#F1E3B8', a: '#B8D0E6', b: '#EDB49E', c: '#F8F1DF', text: 'dark' },
-  5: { name: 'Peony and sage', base: '#EBCBCF', a: '#C3CBAE', b: '#EFD9A9', c: '#F6ECE6', text: 'dark' },
-  6: { name: 'Cobalt summer', base: '#2F55C8', a: '#F0B68A', b: '#8CC0C4', c: '#1E3A8F', text: 'light' },
-  7: { name: 'Tomato and basil', base: '#C9603F', a: '#F3C98E', b: '#8A9E62', c: '#9E3B26', text: 'light' },
-  8: { name: 'Lavender rest', base: '#D9D0E6', a: '#C9C79C', b: '#A9B4CF', c: '#EEE7DC', text: 'dark' },
-  9: { name: 'Fig and wheat', base: '#5E3D50', a: '#C9A774', b: '#8C6E9A', c: '#3F2A38', text: 'light' },
-  10: { name: 'Dusk', base: '#4C2E40', a: '#B5654A', b: '#7E4F66', c: '#2E1B28', text: 'light' },
-  11: { name: 'Candle and chestnut', base: '#6E4636', a: '#D4A76A', b: '#6C6E52', c: '#43281E', text: 'light' },
-  12: { name: 'Pine and berry', base: '#23392F', a: '#8B2E3C', b: '#CDAA6B', c: '#152520', text: 'light' },
+  1: { name: 'Winter light', base: '#EEF2F6', a: '#FFFFFF', b: '#D6E1EC', c: '#F3EADB', text: 'dark' },
+  2: { name: 'Pomegranate blush', base: '#F7E8EA', a: '#FFF8F6', b: '#EBC9D1', c: '#F6E0D6', text: 'dark' },
+  3: { name: 'Almond blossom', base: '#F7EEF0', a: '#E6EDD8', b: '#EADFF0', c: '#FFFAF6', text: 'dark' },
+  4: { name: 'Citrus and sky', base: '#F9F2E0', a: '#DFE9F5', b: '#F5DCD0', c: '#FFFCF4', text: 'dark' },
+  5: { name: 'Peony and sage', base: '#F8EBED', a: '#E5EBDA', b: '#F6EBD2', c: '#FFF9F7', text: 'dark' },
+  6: { name: 'Cobalt summer', base: '#EBF0FB', a: '#FBE6D6', b: '#D9ECEC', c: '#F8FAFF', text: 'dark' },
+  7: { name: 'Peach and basil', base: '#FCEEE4', a: '#FBEFD3', b: '#E4ECD6', c: '#FFF8F2', text: 'dark' },
+  8: { name: 'Lavender rest', base: '#F1EDF6', a: '#EDEDDE', b: '#DFE5F2', c: '#FBF8F3', text: 'dark' },
+  9: { name: 'Fig and wheat', base: '#F4ECF1', a: '#F5EADA', b: '#E6DDEE', c: '#FCF9F5', text: 'dark' },
+  10: { name: 'Rose dusk', base: '#F6EBEF', a: '#F6E0D5', b: '#E7D3E0', c: '#FCF7F4', text: 'dark' },
+  11: { name: 'Candle and oat', base: '#F6EEE6', a: '#F6E6CF', b: '#E6E8DC', c: '#FDF9F4', text: 'dark' },
+  12: { name: 'Frost and berry', base: '#EDF2EF', a: '#F3E1E5', b: '#F3ECD9', c: '#FAFCFB', text: 'dark' },
 }
 
 export function paletteFor(dateOrKey: string): Palette {
